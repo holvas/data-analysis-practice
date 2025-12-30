@@ -1,3 +1,6 @@
+Google Sheets (DATASET):
+https://docs.google.com/spreadsheets/d/1dh3orZAT8H3je5roVI_A1KLPQrp1H2APn92CW9hLmD0/edit?usp=sharing
+
 --- Q1 ---
 SELECT
     user_city,
@@ -80,7 +83,3 @@ WHERE shipment_date IS NOT NULL
  AND delivery_date IS NOT NULL
 GROUP BY courier
 ORDER BY avg_delivery_time ASC;
-
-
-
-
